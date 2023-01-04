@@ -15,4 +15,10 @@ public class IndexController {
     public String hello() {
         return "Hello !!!!!!!";
     }
+
+    @GetMapping("/bye")
+    public String bye() {
+        return "Bye !!!!!!!";
+    }
+
 }
