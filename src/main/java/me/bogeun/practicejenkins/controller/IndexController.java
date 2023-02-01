@@ -16,5 +16,9 @@ public class IndexController {
         return "Hello !!!!!!!";
     }
 
+    @GetMapping("/bye")
+    public String bye() {
+        return "Bye !!!!!!!";
+    }
 
 }
