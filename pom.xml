@@ -11,7 +11,7 @@
     <groupId>me.bogeun</groupId>
     <artifactId>practice-jenkins</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>practice-jenkins</name>
     <description>practice-jenkins</description>
     <properties>
