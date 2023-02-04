@@ -11,10 +11,4 @@ public class IndexController {
         return "Hello Jenkins!!!";
     }
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hello !!!!!!!";
-    }
-
-
 }
