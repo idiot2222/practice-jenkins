@@ -5,9 +5,6 @@ WORKDIR /app
 COPY . .
 RUN ./mvnw clean package
 
-RUN ls target
-RUN cat .dockerignore
-
-COPY /target/practice-jenkins-0.0.1-SNAPSHOT.jar /app/practice-jenkins.jar
+COPY ./target/practice-jenkins-0.0.1-SNAPSHOT.jar /app/practice-jenkins.jar
 
 CMD ["java", "-jar", "practice-jenkins.jar"]
